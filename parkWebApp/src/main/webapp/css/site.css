@@ -1,0 +1,177 @@
+body{
+	
+	
+	
+}
+
+.logo{
+	background: #1A5B3D;
+}
+
+.nationalParkLogo{
+	
+  display: block;
+    position: fixed;
+    top: 50%;
+    height: auto;
+    text-align: center;
+    z-index: -1;
+    margin-top: -125px;
+    margin-left: -175.5px;
+    left: 50%;
+    width: 350px;
+    
+   
+}
+
+.navigationBar{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 35000;
+	
+}
+
+
+
+
+#site-logo {
+	max-width: 50%;
+	max-height: auto;
+	
+}
+
+.header{
+	padding-bottom: 30px;
+}
+
+
+.parkList{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+}
+
+.park{
+	margin-bottom: 10px;
+	
+}
+.card{
+	align-items: stretch;
+}
+
+.card-body{
+	height: 400px;
+	 overflow: hidden;
+    -ms-overflow-x: auto; /* IE8 */
+    overflow-y: scroll;
+    
+}
+
+.img-style {
+	width: 100%;
+	border-radius:10px
+}
+.parkImage{
+
+}
+ 
+.detail-park-image{
+width:508px;	
+border-radius:10px;
+	
+}
+
+ .title{
+ font-size: 35px;
+ }
+ 
+
+  
+ /*.description*/
+ .card-text{
+ 
+display: block;
+  font-size: 13px;
+  width: 100%;
+ } 
+ 
+ .detail-stats{
+ font-size:12px;
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ justify-content: space-evenly;
+ padding: 15px;
+ margin: 5px;
+ border: 1px solid black;
+
+ }
+ 
+
+ 
+ .table{
+ display: flex;
+ flex-wrap: wrap;
+ font-size: 13px;
+ padding: 15px;
+ 
+ }
+ 
+ h2{
+ text-align: center;
+ }
+.card {
+ width: 540px;
+ margin-left: 29%;
+ }
+ .card-body-detail{
+ width:540px;
+ 
+ }
+ .detailsForPark{
+ width: 538px;
+ padding: 15px;
+
+ }
+  
+  
+ .degreeToggle{
+ text-align: center;
+ }
+  
+  
+  
+ .card-group{
+ justify-content: center;
+ } 
+  
+ .weather-card{
+ width: 300px;
+ margin: 25px;
+ border: 1px solid black;
+  border-radius:10px;
+  background-color: #9AD2D8;
+ }
+ 
+ .card-image-top{
+ width: 100%;
+  border-radius:10px;
+ }
+ 
+ 
+ .temp{
+  padding: 10px;
+ }
+ 
+ .card .survey{
+ height: 400px;
+ }
+.survey{
+	text-align: center;
+	padding-top: 10%;
+	 justify-content: space-evenly;
+}
+ 
+ 
